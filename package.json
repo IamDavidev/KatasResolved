@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "codeWars.test.js",
+  "type": "commonjs",
   "dependencies": {
     "jest": "^28.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",

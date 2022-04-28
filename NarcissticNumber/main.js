@@ -14,9 +14,7 @@ function NarcissticNumber(num) {
         sum += nMapPow
     })
 
-    if (sum === num) return console.log(`${num} is a Narcisstic Number`)
-
-    return console.log(`${num} is not a Narcisstic Number`)
+    return sum === num
 
 }
 
