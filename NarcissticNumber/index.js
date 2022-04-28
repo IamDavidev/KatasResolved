@@ -20,9 +20,6 @@ function NarcissticNumber(num) {
 
 }
 
+module.exports = NarcissticNumber
 
 
-
-NarcissticNumber(370)
-NarcissticNumber(371)
-NarcissticNumber(1634)
