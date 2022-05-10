@@ -2,6 +2,7 @@ const JadenCasing = require('./jadenCasing/main.js')
 const NarcissticNumber = require('./NarcissticNumber/main.js')
 const squareDigits = require('./squareDigits/main.js')
 const Alfabet = require('./AlfabetSolution/main.js')
+const VowelCount = require('./VowelCount/main.js')
 
 test('narcisstic number ', () => {
     const result = NarcissticNumber(153)
@@ -35,4 +36,12 @@ test("Alfabet cases exp ", () => {
     expect(Alfabet(undefined)).toBe(null)
     expect(Alfabet('')).toBe(null)
 
+})
+
+test("Vowels cout test", () => {
+    expect(VowelCount("abracadabra")).toBe(5)
+    expect(VowelCount('pear tree')).toBe(4)
+    expect(VowelCount("xyyx9x797979")).toBe(0)
+    expect(VowelCount(null)).toBe(0)
+    expect(VowelCount(undefined)).toBe(0)
 })
